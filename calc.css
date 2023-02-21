@@ -11,17 +11,20 @@
    display: flex;
    align-items: center;
    justify-content: center;
+  
 }
 .calculator{
     background:#3a4452;
     padding: 20px;
     border-radius: 10px;
+    box-shadow:-8px -8px 15px rgba(0, 0, 0, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+
    
 }
 .calculator form input{
     width: 60px;
     height: 60px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow:inset -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
    background: transparent; 
    color: #fff;
 }
